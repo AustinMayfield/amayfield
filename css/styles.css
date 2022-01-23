@@ -1,0 +1,136 @@
+/***************************TAG SELECTORS*************************************/
+a {
+  color: #072227;
+}
+body {
+  background-color: #35858B;
+  color: #2B2E4A;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  color: #40514E;
+  font-family: 'Sofia', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+hr {
+  width: 20%;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: solid;
+  border-color: #072227;
+}
+
+
+
+/***************************CLASS SELECTORS***********************************/
+.first-div {
+  background-color: #AEFEFF;
+  color: #40514E;
+  font-size: 2rem;
+  padding-top: 150px;
+  height: 450px;
+}
+
+.second-div {
+  background-color: #4FBDBA;
+  padding: 1em 0;
+}
+
+.third-div {
+  background-color: #35858B;
+  height: 3em;
+  padding: 1em;
+}
+
+.top-h1 {
+  margin: 0 0 0 -47px;
+  font-size: 4rem;
+  position: absolute;
+  display: inline-block;
+}
+
+.top-h2 {
+  position: absolute;
+  display: inline-block;
+  margin-left: -335px;
+  /*margin-top: 260px; to land in dark brown line*/
+  margin-top: 323px; /*for dark green line*/
+  color: #AEFEFF;
+}
+
+.mtn {
+  position: absolute;
+  height: 540px;
+  margin-top: -90px;
+  margin-left: -480px;
+}
+
+.cld1 {
+  position: absolute;
+  top: 90px;
+  right: 30%;
+}
+
+.cld2 {
+  position: absolute;
+  left: 30%;
+}
+
+.skill-row {
+  display: inline-block;
+  margin: 100 auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.img1 {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #072227;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #AEFEFF;
+  color: #40514E;
+}
+
+.footer-link{
+  margin: 1%;
+  font-weight: bold;
+  text-decoration: none;
+}
+/***************************ID SELECTORS**************************************/
